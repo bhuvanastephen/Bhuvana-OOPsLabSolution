@@ -42,7 +42,9 @@ class Driver {
 			break;
 		case 4:
 			departmentId="legal";							
-			break;									
+			break;	
+		default:
+			System.out.println("Invalid Choice ");
 		}
 		try {
 			emp = new Employee(firstName,lastName,departmentId);
